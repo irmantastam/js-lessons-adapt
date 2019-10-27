@@ -1,3 +1,10 @@
+/**
+ * DOM stands for Document Object Model. It’s the data representation of 
+ * objects used to build structure and the content of the web page.
+ * Therefore, it could be accessed via javascript using DOM API. Styles,
+ * content and structure could be changed and manipulated:
+ */
+
 document.getElementById('hello'); // Gets tag with id hello.
 document.getElementsByTagName('p'); // Gets all <p> tags in document.
 document.querySelector('.hello'); // Gets tag with class name hello.

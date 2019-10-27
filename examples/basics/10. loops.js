@@ -1,3 +1,10 @@
+/**
+ * Loops are common way to do something repeatedly or iterate
+ * through a data list. There are different statements used to
+ * create a loop, but essentially they do same thing - perform
+ * some repeated routine:
+ */
+
 const catList = ['Meow', 'Siuzi', 'Tracy', 'Kitty', 'Softy'];
 
 // For loop. Iterates over our catList array.
