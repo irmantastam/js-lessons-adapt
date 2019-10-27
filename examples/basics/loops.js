@@ -1,28 +1,24 @@
-// Define an array.
 const catList = ['Meow', 'Siuzi', 'Tracy', 'Kitty', 'Softy'];
 
-console.log('cat list array', catList);
-
-// For loop through our catList array.
-for (var i = 0; i < catList.length; i++) {
-  console.log(`cat number ${i}`, catList[i]);
+// For loop. Iterates over our catList array.
+for (let i = 0; i < catList.length; i++) {
+  console.log(catList[i]); // Logs: 'Meow', 'Siuzi', 'Tracy', 'Kitty', 'Softy'.
 }
 
-// Define circle object.
-const circle = {
-  radius: 50,
-  color: 'red',
-  position: {
-    x: 1,
-    y: 2,
-  },
+// for .. in loop. Iterates through object providing key in each iteration.
+for (let key in catList) {
+  console.log(key); // Logs: 0, 1, 2, 3, 4.
 }
 
-console.log('Circle object', circle);
+// for .. of loop. Iterates through iterable object (Array) providing current value in each iteration.
+for (let value of catList) {
+  console.log(value); // Logs: 'Meow', 'Siuzi', 'Tracy', 'Kitty', 'Softy'.
+}
 
-// for .. in loop through our object having a unique key in each iteration.
-for (let key in circle) {
-  if (typeof circle[key] !== 'function') {
-    console.log(key, circle[key]);
-  }
+let counter = 0
+
+// While loop. Executes as long as specified condition evaluates to be true.
+while (counter < 5) {
+  counter++;
+  console.log(counter);
 }
