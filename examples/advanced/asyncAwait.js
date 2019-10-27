@@ -3,7 +3,7 @@
  * in front of an expression that returns a promise. Then the execution of async
  * function is paused until the promise is resolved.
  * 
- * The idea behind async / await is to be able to write asynchromous code that looks like synchronous code.
+ * The idea behind async / await is to be able to write asynchronous code that looks like synchronous code.
  * Async functions return a promise.
  */
 
@@ -24,7 +24,10 @@ function fetchCatImagesPromise(userId) {
 
 fetchCatImagesPromise(123)
   .then(result => console.log('promise 1', result));
-// Result: ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+/**
+ * Result:
+ * ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+ */
 
 
 // Fetching data from api using async / await methods.
@@ -44,7 +47,10 @@ async function fetchCatImagesAsync(userId) {
 
 fetchCatImagesAsync(123)
   .then(result => console.log('Promise 2', result));
-// Result: ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+/**
+ * Result:
+ * ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+ */
 
 
 /** 
@@ -68,5 +74,8 @@ async function fetchCatImagesAsync2(userId) {
 
 fetchCatImagesAsync2(123)
   .then(result => console.log('Promise 3', result));
-// Result: ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+/**
+ * Result:
+ * ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+ */
 
