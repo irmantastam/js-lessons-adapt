@@ -1,14 +1,15 @@
 const person1 = {
   name: 'Irmantas',
-  car: 'Audi TT',
-  city: 'Juragiai',
+  occupation: 'Front end developer',
+  level: 'Mid',
+  language: 'Javascript',
 };
 
 const person2 = {
-  name: 'Indre',
-  car: 'VW Jetta',
-  eyeColor: 'brown',
-  city: 'Piliuona',
+  name: 'Evaldas',
+  occupation: 'Back end developer',
+  level: 'Senior',
+  language: 'PHP',
 };
 
 const mergedPersons = {

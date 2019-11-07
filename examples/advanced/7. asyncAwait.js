@@ -26,7 +26,11 @@ fetchCatImagesPromise(123)
   .then(result => console.log('promise 1', result));
 /**
  * Result:
- * ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+ * [
+ *   "http://images.somecdn.com/cat-21.jpg",
+ *   "http://images.somecdn.com/cat-33.jpg",
+ *   "http://images.somecdn.com/cat-45.jpg",
+ * ]
  */
 
 
@@ -74,8 +78,13 @@ async function fetchCatImagesAsync2(userId) {
 
 fetchCatImagesAsync2(123)
   .then(result => console.log('Promise 3', result));
+
 /**
  * Result:
- * ["http://images.somecdn.com/cat-21.jpg", "http://images.somecdn.com/cat-33.jpg", "http://images.somecdn.com/cat-45.jpg"]
+ * [
+ *   "http://images.somecdn.com/cat-21.jpg",
+ *   "http://images.somecdn.com/cat-33.jpg",
+ *   "http://images.somecdn.com/cat-45.jpg",
+ * ]
  */
 

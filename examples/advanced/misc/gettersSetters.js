@@ -29,7 +29,10 @@ function Circle(radius) {
   });
 }
 
+// Static property which lays inside object constructor and could be accessed through constructor directly, not from object instances.
+Circle.staticHello = 'Hello';
+
 const circleObj = new Circle(1);
 
-circleObj.defaultLocation = {x: 1, y: 1};
-console.log(circleObj.defaultLocation);
+circleObj.defaultLocation = { x: 1, y: 1 };
+console.log(circleObj);

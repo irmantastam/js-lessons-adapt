@@ -28,11 +28,13 @@ const sayHello = (name) => (
   'Hello ' + name
 );
 
+const sayHello2 = name => 'Hello ' + name;
+
 // Outputs: Hello Irmantas
 console.log(sayHello('Irmantas'));
 
 // Arrow function with explicit return using {}.
-const sayHello2 = (name) => {
+const sayHello3 = (name) => {
   return 'Hello ' + name;
 };
 

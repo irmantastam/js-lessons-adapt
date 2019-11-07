@@ -9,4 +9,4 @@ const circle = {
   },
 }
 
-circle.draw();
+circle.draw(); // Logs {radius: 1, location: {…}, draw: ƒ}
