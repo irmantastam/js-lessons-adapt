@@ -2,7 +2,7 @@ repo_name: irmantastam/js-lessons-adapt
 report_id: 9c86f0a77147619c434889474905dd37
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-03T11:18:38+00:00'
+timestamp: '2024-01-05T08:11:07+00:00'
 requested_by: irmantastam
 provider: github
 branch: master
@@ -17,6 +17,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/irmantastam/js-lessons-adapt/blob/master/examples/basics/4.
+    domMethods.js
   detection_source: examples/basics/4. domMethods.js
   last_updated_by: Irmantas Tamasauskas
   last_updated_on: 2019-10-27 20:17:04.000000000 Z
@@ -28,4 +30,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/irmantastam/js-lessons-adapt
   detection_source: Repo Metadata
